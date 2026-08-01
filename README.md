@@ -1,6 +1,6 @@
 # GB-SCDM
 
-> Intelligent Decision-Making for Global Supply Chain Disruption Risks Driven by Granular-Ball.
+> Intelligent Decision-Making for Global Supply Chain Disruption Risks Driven by Granular Ball.
 
 ---
 
@@ -10,11 +10,11 @@
 
 ### Overview
 
-GB-SCDM is a research-oriented Python prototype for supply-chain disruption risk assessment and mitigation decision support. It combines granular-ball partitioning, global and local predictive models, temporal transitions, robust scenario optimization, continuous action constraints, and optional financial-physics features.
+GB-SCDM is a research-oriented Python prototype for supply chain disruption risk assessment and mitigation decision support. It combines granular ball partitioning, global and local predictive models, temporal transitions, robust scenario optimization, continuous action constraints, and optional financial-physics features.
 
 The model is designed to:
 
-- estimate supply-chain risk probabilities over time;
+- estimate supply chain risk probabilities over time;
 - predict high-quantile losses under local operating regimes;
 - recommend mitigation actions under service, cost, carbon, and ramp constraints;
 - expose local model membership, feature contributions, active constraints, and solver status;
@@ -24,7 +24,7 @@ The current repository is a **core algorithm snapshot**. It does not include a C
 
 ### Main Components
 
-1. **Granular-ball partitioning** using recursive K-Means splits controlled by risk, loss, propagation, action heterogeneity, and complexity penalties.
+1. **Granular ball partitioning** using recursive K-Means splits controlled by risk, loss, propagation, action heterogeneity, and complexity penalties.
 2. **Local shrinkage models** that estimate local logistic-risk and ridge-loss parameters around global coefficients.
 3. **Temporal soft fusion** using ball distance, a learned transition matrix, and local confidence.
 4. **Risk calibration** that can blend a temporal logistic head with a rule prior and apply Platt-style calibration.
