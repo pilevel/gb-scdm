@@ -145,7 +145,7 @@ Some helper functions define defaults for missing columns, but several main-mode
 
 ### License
 
-No `LICENSE` file was included in the supplied repository. The copyright holder should select and add an appropriate license before public distribution, modification, or reuse.
+The source of this code is the paper: "Intelligent Decision-Making for Global Supply Chain Disruption Risks Driven by Granular Ball". Please cite this paper when using this code.
 
 ---
 
